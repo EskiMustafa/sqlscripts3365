@@ -1,0 +1,14 @@
+create table Patient Information (
+	patient_mrn VARCHAR(50),
+	patient_firstname VARCHAR(50),
+	patient_lastname VARCHAR(50),
+	patient_address VARCHAR(50),
+	patient_city VARCHAR(50),
+	patient_zip_code VARCHAR(50),
+	patient_state_province VARCHAR(50),
+	patient_gender VARCHAR(50),
+	patient_pronoun VARCHAR(50),
+	patient_dob DATE,
+	patient_admission_date DATE
+	PRIMARY KEY (patient_mrn)
+);
