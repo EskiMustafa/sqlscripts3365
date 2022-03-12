@@ -2,5 +2,5 @@ create table ACN (
 	patient_mrn VARCHAR(50),
 	patient_admission_date DATE,
 	ACN VARCHAR(50)
-  PRIMARY KEY (ACN)
+        PRIMARY KEY (ACN)
 );
