@@ -3,4 +3,4 @@ create table ACN (
 	patient_admission_date DATE NOT NULL,
 	ACN VARCHAR(50) NOT NULL
         PRIMARY KEY (ACN)
-);
+        FOREIGN KEY references patient_information(patient_mrn)
